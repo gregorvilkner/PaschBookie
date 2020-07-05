@@ -242,15 +242,15 @@ class ScoreCard extends Component {
         aNumber += this.state.topScore;
         aNumber += this.state.topBonus;
 
-        aNumber += this.state.pair1;
-        aNumber += this.state.pair2;
-        aNumber += this.state.oak3;
-        aNumber += this.state.oak4;
-        aNumber += this.state.flush;
-        aNumber += this.state.Flush;
-        aNumber += this.state.house;
-        aNumber += this.state.chance;
-        aNumber += this.state.pasch;
+        aNumber += this.state.pair1 == -1 ? 0 : this.state.pair1;
+        aNumber += this.state.pair2 == -1 ? 0 : this.state.pair2;
+        aNumber += this.state.oak3 == -1 ? 0 : this.state.oak3;
+        aNumber += this.state.oak4 == -1 ? 0 : this.state.oak4;
+        aNumber += this.state.flush == -1 ? 0 : this.state.flush;
+        aNumber += this.state.Flush == -1 ? 0 : this.state.Flush;
+        aNumber += this.state.house == -1 ? 0 : this.state.house;
+        aNumber += this.state.chance == -1 ? 0 : this.state.chance;
+        aNumber += this.state.pasch == -1 ? 0 : this.state.pasch;
 
         return aNumber;
     };
