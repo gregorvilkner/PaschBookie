@@ -1,6 +1,6 @@
 # PaschBookie
 
-This project is an amazing and super useful scoresheet application for Pasch / Yazzee.
+This project is an amazing and super useful score sheet application for Pasch / Yazzee.
 
 Built using react and material ui. It is published within a .NET Core app at https://paschbookie.azurewebsites.net
 
